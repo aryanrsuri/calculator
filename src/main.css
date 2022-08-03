@@ -37,8 +37,14 @@ html {
     width: 100%;
     height: 80px;
     border: 1px solid rgb(54, 114, 217);
+    display: flex;
+    justify-content: flex-end;
+    align-items:flex-end;
+    font-size: 2rem;
 }
-
+.screen>.output {
+    padding: 4px;
+}
 .calculator>.body {
     width: inherit;
     height: inherit;

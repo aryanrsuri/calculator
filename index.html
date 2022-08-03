@@ -10,11 +10,13 @@
   <body>
     <div class="main">
       <div class="calculator">
-        <div class="screen"></div>
+        <div class="screen">
+          <span class="output"></span>
+        </div>
         <div class="body">
           <div class="toolbar">
-            <button class="toolbox">Clear</button>
-            <button class="toolbox">Delete</button>
+            <button id="clear" class="toolbox">Clear</button>
+            <button id="delete" class="toolbox">Delete</button>
           </div>
           <div class="digits">
             <button data-number class="digitbox">7</button>
@@ -31,7 +33,7 @@
             <button data-operator class="digitbox">-</button>
             <button data-operator class="digitbox">.</button>
             <button data-number class="digitbox">0</button>
-            <button data-operator class="digitbox">=</button>
+            <button id="evaluate" class="digitbox">=</button>
             <button data-operator class="digitbox">+</button>
           </div>
         </div>
